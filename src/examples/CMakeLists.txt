@@ -1,0 +1,6 @@
+ADD_EXECUTABLE(simple simple.cpp)
+target_link_libraries( simple al++ )
+ADD_EXECUTABLE(extensions extensions.cpp)
+target_link_libraries( extensions al++ )
+ADD_EXECUTABLE(stream stream.cpp)
+target_link_libraries( stream al++ )
